@@ -1,16 +1,11 @@
 #include <stdio.h>
-#include "clatin.h"
+#include "franc.h"
 
-numerus aditus() {
-    breve a = 0;
-    supernatet b = magnitudine(breve);
-    dum(1) {
-        a++;
-        si(a>5) {relinquo;}
-        scribere("%i\n", a);
-        b = (b+a)/2;
+entier principal(entier n_arguments, caractere** arguments) {
+    pour(mini i = 1 ; i <= n_arguments ; i++)
+    {
+         écrisf(arguments[i]);
     }
-    littera z[3] = "Ave";
-    scribere("Ave, munde %f\n %s\n", b, z);
-    remito 0;
+    mets("");
+    return 0;
 }
