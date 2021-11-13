@@ -41,6 +41,7 @@ typedef double decimal;
 #define fmet fputs
 #define fmets fputs
 #define fécrisf fprintf
+#define fferme fclose
 
 #define exécute system
 #define exécutes system
